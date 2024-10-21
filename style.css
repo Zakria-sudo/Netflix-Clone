@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: black;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+  sans-serif;
+}
+span{
+}
+main {
+  background: url("images/bg.jpg") center center no-repeat;
+  height: 95vh;
+  position: relative;
+  background-size: max(1200px, 100vw);
+}
+.box {
+  position: absolute;
+  background-color: black;
+  height: 95vh;
+  width: 100%;
+  opacity: 0.62;
+  top: 0;
+}
+nav {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+  height: 60px;
+  padding: 12px 0;
+}
+nav img {
+  width: 170px;
+}
+nav div {
+  position: relative;
+  z-index: 10;
+}
+
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px;
+  width: 90px;
+  font-weight: 500;
+}
+.hero {
+  height: 80%;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero > :nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+}
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+}
+.hero > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+}
+.inputField{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+input{
+    opacity: 0.7; 
+    border: 1px solid gray;
+    border-radius:5px ;
+    width: 370px;
+    background-color: black;
+    color: white;
+    height: 60px;
+    padding: 0 10px; 
+}
+.inputField>button{
+    width: 180px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius:5px ;
+}
+.separation{
+    height: 5px;
+    background-color: rgb(98, 98, 98)
+}
+.second-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  height: 85vh;
+  background-color: black;
+  max-width: 78%;
+  margin: auto;
+}
+.sec-img video{ 
+    position: absolute;
+    left: 800px;
+    top: 890px;
+    width: 462px;
+   
+  }
+.paras{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  
+}
+.paras .p1{
+  font-weight: 900;
+  font-size: 48px;
+  padding: 5px 0;
+}
+.paras .p2{
+  font-weight: 400;
+  font-size: 24px;
+}
+.third-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 20px;
+  height: 85vh;
+  background-color: black;
+  max-width: 78%;
+  margin: auto;
+}
+.paras>p{
+  padding: 10px;
+}
+.fourth-sec{
+  
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: left;
+  width: 70vw;
+
+}  
+.faq h1{
+ color: white;
+ font-weight: 900;
+ font-size: 48px;
+}
+.faq{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 10px;
+}
+.faq-btn button{
+  width: 80vw;
+  text-align: left;
+  background-color: rgb(49, 49, 49);
+  height: 70px;
+  border-radius:1px;
+  padding-left: 25px;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 4px;
+}
+.faq-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.last-para{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px ;
+  margin-bottom: 20px;
+}
+.last-para>p{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.last-sec{
+  margin-bottom: 100px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+.inputField button:hover{
+  background-color: rgb(222, 4, 4);
+}
+.sign-in-btn:hover{
+  background-color: rgb(222, 4, 4);
+}
+.faq-btn button:hover{
+  background-color: rgb(71, 71, 71);
+}
+.questions{
+  position: relative;
+  /* border: 2px solid red; */
+  width: 80vw;
+  margin: 50px auto;
+}
+a{
+  color: gray;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.anchors{
+  position: relative;
+  /* border: 2px solid red; */
+  width: 80vw;
+  margin: auto;
+  align-items: left;
+}
+.anchors ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: left;
+}
+.last-btn{
+ padding:20px 0px;
+}
+.last-btn button{
+  background-color: black ;
+  color: white;
+  border: 1px solid gray;
+  width: 130px;
+}
+.last-div ul li{
+  color: gray;
+  list-style: none;
+}
+footer{
+  height: 60vh;
+}
